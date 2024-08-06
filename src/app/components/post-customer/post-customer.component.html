@@ -1,0 +1,21 @@
+<!-- app.component.html or any other Angular component template -->
+<div class="container">
+  <div class="form-container">
+    <h2 class="form-title">Post New Customer</h2>
+    <form [formGroup]="postCustomerForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" formControlName="name" required>
+      </div>
+      <div class="form-group">
+        <label for="position">Position:</label>
+        <input type="text" id="position" formControlName="position" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" formControlName="phone" required>
+      </div>
+      <button type="submit">Post</button>
+    </form>
+  </div>
+</div>

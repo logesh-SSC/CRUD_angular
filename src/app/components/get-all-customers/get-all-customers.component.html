@@ -1,0 +1,26 @@
+<div class="container">
+    <button class="btn-new" (click)="moveToPost()">Post</button>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Phone</th>
+          <th>Process</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let customer of customers">
+          <td>{{customer.name}}</td>
+          <td>{{customer.position}}</td>
+          <td>{{customer.phone}}</td>
+          <td>
+            <button class="btn-action" (click)="navigate(customer.id)">Update</button>
+            <button class="btn-action" (click)="deleteCustomer(customer.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
