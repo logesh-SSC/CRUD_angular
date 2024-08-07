@@ -1,79 +1,73 @@
-/* General container styling */
+
 .container {
     padding: 20px;
-    max-width: 1200px; /* Maximum width of the container */
-    margin: 0 auto; /* Center the container */
+    max-width: 1200px; 
+    margin: 0 auto;
   }
   
-  /* Styling for the button */
   .btn-new {
-    background-color: #007bff; /* Bootstrap primary color */
-    color: #ffffff; /* White text */
+    background-color: #007bff; 
+    color: #ffffff;
     border: none;
     padding: 10px 15px;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
-    text-decoration: none; /* Remove underline from routerLink */
-    margin-bottom: 20px; /* Space below the button */
+    text-decoration: none;
+    margin-bottom: 20px; 
     transition: background-color 0.3s ease;
   }
   
   .btn-new:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
   }
   
-  /* Styling for the table */
   table {
     width: 100%;
-    border-collapse: collapse; /* Remove gaps between table cells */
-    margin-top: 20px; /* Space above the table */
+    border-collapse: collapse; 
+    margin-top: 20px;
   }
   
-  /* Styling for table header */
   thead {
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f8f9fa;
   }
   
   th {
     padding: 10px;
     text-align: left;
-    border-bottom: 2px solid #dee2e6; /* Light border at the bottom */
+    border-bottom: 2px solid #dee2e6;
   }
   
-  /* Styling for table cells */
   td {
     padding: 10px;
-    border-bottom: 1px solid #dee2e6; /* Light border at the bottom */
+    border-bottom: 1px solid #dee2e6;
   }
   
-  /* Styling for action buttons in the table */
   .btn-action {
-    background-color: #28a745; /* Green color for buttons */
-    color: #ffffff; /* White text */
+    background-color: #28a745;
+    color: #ffffff;
     border: none;
     padding: 5px 10px;
     font-size: 14px;
     border-radius: 4px;
     cursor: pointer;
-    margin-right: 5px; /* Space between buttons */
+    margin-right: 5px; 
     transition: background-color 0.3s ease;
   }
   
   .btn-action:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838;
   }
   
-  /* Optional: Add some responsiveness */
   @media (max-width: 768px) {
     table {
-      font-size: 14px; /* Smaller text on smaller screens */
+      font-size: 14px; 
     }
   
     .btn-new, .btn-action {
-      font-size: 14px; /* Smaller text for buttons */
-      padding: 8px 12px; /* Adjust button padding */
+      font-size: 14px; 
+      padding: 8px 12px; 
     }
   }
   
